@@ -6,7 +6,7 @@ body {
     
 	margin: 0;
 	background: #fff;
-	
+	overflow-x: hidden;
 	font-weight: 800;
     transition: all 200ms linear;
 }
@@ -1109,7 +1109,7 @@ section{
 
 
 iframe{
-    width: 50vw;
+    width: 49.5vw;
     height: 100vh;
     min-height: 800px;
 }
@@ -1119,9 +1119,10 @@ iframe{
     align-items: center;
     justify-content: center;
     color: #FFF;
-    width: 50vw;
+    width: 49.5vw;
     background-color: #212121;
     min-height: 800px;
+    margin-left: 0px;
 }
 
 .form-container h1{  
