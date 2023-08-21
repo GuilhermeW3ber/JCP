@@ -807,15 +807,62 @@ body.dark .logo img {
 }
 
 #owl-about .item{
-    background: #E7E7E7;
+    background: #fff;
     padding: 30px 0px;
     margin: 2px;
     color: #FFF;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    text-align: center;
     height: 400px;
+}
+
+.item-text-container{
+    background-color: #212121;
+    margin-top: -30px;
+    border-radius: 5px 5px 0 0;
+    padding: 20px 0;
+    height: 200px;
+    
+}
+
+.item-text-container img{
+    position: relative;
+    width: 200px;
+    margin-top: 80px;
+}
+
+#owl-about .item h1{
+   text-align: left;
+   margin: 0px 40px;
+   font-size: 23px;
+   font-weight: 300;
+   height: 100px;
+}
+
+#owl-about .item h2{
+    position: absolute;
+    font-size: 25px;
+    font-weight: 400;
+    height: 100px;
+    margin: 150px 0 0 210px;
+    color: #000;
+}
+
+ #owl-about .item p{
+    position: absolute;
+    font-size: 16px;
+    font-weight: 300;
+    height: 100px;
+    margin: 180px 0 0 210px;
+    color: #000;
+}
+
+@media (max-width:1300px){
+    #owl-about .item h1{
+        font-size: 18px;
+        font-weight: 400;
+     }
 }
 
 #owl-about{
