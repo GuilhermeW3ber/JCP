@@ -91,6 +91,55 @@
         </div>
       </div>
     </div>
+    <div class="owl-container">
+      <div id="owl-plant" class="owl-carousel">
+        <div class="item" style="background-image: url(./Src/Empreendimentos/Álamo/58ab86899f5453109537179e3f13f5eedc20a92a21ae78e3593b76dcb24b29b4.png);"></div>
+        <div class="item"style="background-image: url(./Src/Empreendimentos/Álamo/741c47e50af12ac98fb72cf7834bddf46add6741a81c7fe532c46a2e9ef74684.png);"></div>
+        <div class="item"style="background-image: url(./Src/Empreendimentos/Álamo/af094d1db3bb3da59aaa541cf63a96265e3005f7a9d628ee06d47cbef2c63292.png);"></div>
+      </div>
+    </div>
+    <div class="interior">
+      <div class="interior-stage-container">
+        <div class="interior-container">
+          <div class="margin">
+            <b>Apartamentos</b>
+            <br>
+            <c id="interior-info">201m² a 208m²</c>
+          </div>
+          <div class="margin">
+            <b>Penthouses</b>
+            <br>
+            <c id="interior-info">201m² a 208m²</c>
+          </div>
+          <div class="margin">
+            <b>Garagens</b>
+            <br>
+            <c id="interior-info">02 a 04 vagas</c>
+          </div>
+          <div class="margin">
+            <b>Elevadores</b>
+            <br>
+            <c id="interior-info">Privativos</c>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="diferentials">
+      <h1>Difereciais</h1>
+      <div class="owl-container">
+        <div id="demo" style="margin-bottom: 80px;">
+          <div id="owl-diferentials" class="owl-carousel">
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="buildingStage">
       <div class="building-stage-container">
         <!-- </i><h1><i class='bx bx-hard-hat' ></i></h1> -->
@@ -139,45 +188,6 @@
         </div>
       </div>
     </div>
-    <!-- <div class="diferentials">
-      <h1>Difereciais</h1>
-      <div class="owl-container">
-        <div id="about">
-          <div id="#owl-about" class="owl-carousel">
-            <div class="item a1" style="background-image: url(./Src/Empreendimentos/city-5716456_1920.jpg);">
-              <h2>Álamo - <br> Edificio Residêncial</h2>
-              <a href="./Info.html">Saber Mais</a>
-            </div>
-            <div class="item" style="background-image: url(./Src/Empreendimentos/architecture-1868667_1920.jpg);">
-              <h2>Trend - <br> Edificio Residêncial</h2>
-              <a href="./Info.html">Saber Mais</a>
-            </div>
-            <div class="item" style="background-image: url(./Src/Empreendimentos/landscape-4098802_1920.jpg);">
-              <h2>Unimed - <br> Clínicas</h2>
-              <a href="./Info.html">Saber Mais</a>
-            </div>
-            <div class="item">
-              <a href="./Info.html">Saber Mais</a>
-            </div>
-            <div class="item">
-              <a href="./Info.html">Saber Mais</a>
-            </div>
-            <div class="item">
-              <a href="./Info.html">Saber Mais</a>
-            </div>
-            <div class="item">
-              <a href="./Info.html">Saber Mais</a>
-            </div>
-            <div class="item">
-              <a href="./Info.html">Saber Mais</a>
-            </div>
-            <div class="item">
-              <a href="./Info.html">Saber Mais</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
     <div class="owl-container">
       <div class="title-container">
         <h2 id="info-sub-title">Plantas do empreendimento</h2>
@@ -189,6 +199,7 @@
           <div class="item-plant"></div>
           <div class="item-plant"></div>
         </div>
+      </div>
     </div>
     <div class="loft-container">
       <div class="loft-wrapper">
@@ -280,9 +291,9 @@
           goToFirstSpeed : 1000,
       
           // Navigation
-          navigation : true,
+          navigation : false,
           navigationText : ["<",">"],
-          pagination : false,
+          pagination : true,
           
       
           // Responsive
@@ -299,7 +310,7 @@
     <script>
       $(document).ready(function() {
   
-        var owl = $("#owl-about");
+        var owl = $("#owl-plant");
   
         owl.owlCarousel({
   
@@ -314,9 +325,9 @@
           paginationSpeed : 800,
       
           //Autoplay
-          autoPlay : false,
+          autoPlay : true,
           goToFirst : true,
-          goToFirstSpeed : 1000,
+          goToFirstSpeed : 400,
       
           // Navigation
           
@@ -326,8 +337,8 @@
           
           // Responsive
           responsive: true,
-          items : 2,
-          itemsDesktop : [1400,2],
+          items : 1,
+          itemsDesktop : [1400,1],
           itemsTablet: [1250,1],
   
         });
@@ -357,17 +368,17 @@
           goToFirstSpeed : 1000,
       
           // Navigation
-          navigation : true,
+          navigation : false,
           navigationText : ["<",">"],
-          pagination : false,
+          pagination : true,
           
       
           // Responsive
           responsive: true,
-          items : 1,
-          itemsDesktop : [1400,1],
-          itemsTablet: [1200,1],
-          itemsMobile : [479,1]
+          items : 4,
+          itemsDesktop : [1400,4],
+          itemsTablet: [1200,3],
+          itemsMobile : [479,2]
   
         });
   
