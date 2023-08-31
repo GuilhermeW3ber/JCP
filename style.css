@@ -718,12 +718,12 @@ body.dark .logo img {
 }
 
 .info-text-vertical p{
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 350;
     margin-top: 20px;
     text-align: start;
-    margin-bottom: -20px;
-    border-bottom: 1px solid #000;
+    margin-bottom: -10px;
+    border-top: 1px solid #000;
     padding-top: 10px;
 }
 
@@ -1401,4 +1401,87 @@ textarea {
 	-webkit-border-radius: 30px;
 	-moz-border-radius: 30px;
 	border-radius: 30px;
+}
+
+.buildingStage{
+    text-align: center;
+    background-color: #eeeeee;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.buildingStage h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.state-container{
+    padding: 40px 0 -40 0;
+    margin: 0 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(48%, auto));
+}
+
+.margin{
+    border-bottom: 2px solid #fff ;
+    padding: 60px 0 10px;
+    margin-left: 10%;
+    width: 80%;
+    text-align: left;
+}
+
+.margin b{
+    font-size: 18px;
+    font-weight: 500;
+    width: 48%;
+}
+
+.margin i{
+    font-size: 18px;
+    font-weight: 700;
+    color: #EDA945;
+    
+}
+
+.margin2{
+    border-bottom: 5px solid #fff ;
+    padding: 60px 0 10px;
+    margin-left: 10%;
+    width: 80%;
+    text-align: left;
+}
+
+.margin2 b{
+    font-size: 25px;
+    font-weight: 500;
+    width: 48%;
+}
+
+.margin2 i{
+    font-size: 25px;
+    font-weight: 700;
+    color: #EDA945;
+    margin-right: 5px;
+    
+}
+
+.margin3{
+    padding: 30px 0 0px;
+    margin-left: 10%;
+    width: 80%;
+    text-align: right;
+}
+
+.margin3 b{
+    font-size: 25px;
+    font-weight: 500;
+    width: 48%;
+}
+
+.margin3 i{
+    font-size: 25px;
+    font-weight: 700;
+    color: #EDA945;
+    margin-left: 5px;
 }

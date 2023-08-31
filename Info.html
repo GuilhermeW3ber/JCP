@@ -79,10 +79,10 @@
             <h1 id="info">Lorem ipsum</h1>
             <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse vitae repudiandae iste est atque blanditiis quam deleniti ut aut! Illum, iure ratione dolore iste consequuntur ea minima non obcaecati earum.</h2>
             <div class="infoBuild">
-              <p>4 suítes</p>
-              <p>300 - 1.000m² privativos</p>
-              <p>44 andares</p>
-              <p>3 a 4 vagas de garagem</p>  
+              <p> <i class='bx bx-bed' ></i> 4 suítes</p>
+              <p> <i class='bx bx-shape-square' ></i> 300 - 1.000m² privativos</p>
+              <p> <i class='bx bx-buildings' ></i> 44 andares</p>
+              <p> <i class='bx bxs-car-garage' ></i> 3 a 4 vagas de garagem</p>  
             </div>
           </div>
           <div class="info-img">
@@ -91,6 +91,93 @@
         </div>
       </div>
     </div>
+    <div class="buildingStage">
+      <div class="building-stage-container">
+        <!-- </i><h1><i class='bx bx-hard-hat' ></i></h1> -->
+        <h1>Estágio da Obra</h1>
+        <div class="state-container">
+          <div class="margin">
+            <b>Terraplenagem</b>
+            <i>100%</i>
+          </div>
+          <div class="margin">
+            <b>Fundação</b>
+            <i>100%</i>
+          </div>
+          <div class="margin">
+            <b>Estrutura</b>
+            <i>100%</i>
+          </div>
+          <div class="margin">
+            <b>Alvenaria</b>
+            <i>100%</i>
+          </div>
+          <div class="margin">
+            <b>Elétrica e Hidráulica</b>
+            <i>100%</i>
+          </div>
+          <div class="margin">
+            <b>Acabamento Interno</b>
+            <i>100%</i>
+          </div>
+          <div class="margin">
+            <b>Acabamento Externo</b>
+            <i>100%</i>
+          </div>
+          <div class="margin">
+            <b>Documentação</b>
+            <i>100%</i>
+          </div>
+        </div>
+        <div class="margin2">
+          <i>100%</i>
+          <b> da Obra Concluída</b>
+        </div>
+        <div class="margin3">
+          <b>Previsão de Entrega</b>
+          <i>Setembro/2023</i>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="diferentials">
+      <h1>Difereciais</h1>
+      <div class="owl-container">
+        <div id="about">
+          <div id="#owl-about" class="owl-carousel">
+            <div class="item a1" style="background-image: url(./Src/Empreendimentos/city-5716456_1920.jpg);">
+              <h2>Álamo - <br> Edificio Residêncial</h2>
+              <a href="./Info.html">Saber Mais</a>
+            </div>
+            <div class="item" style="background-image: url(./Src/Empreendimentos/architecture-1868667_1920.jpg);">
+              <h2>Trend - <br> Edificio Residêncial</h2>
+              <a href="./Info.html">Saber Mais</a>
+            </div>
+            <div class="item" style="background-image: url(./Src/Empreendimentos/landscape-4098802_1920.jpg);">
+              <h2>Unimed - <br> Clínicas</h2>
+              <a href="./Info.html">Saber Mais</a>
+            </div>
+            <div class="item">
+              <a href="./Info.html">Saber Mais</a>
+            </div>
+            <div class="item">
+              <a href="./Info.html">Saber Mais</a>
+            </div>
+            <div class="item">
+              <a href="./Info.html">Saber Mais</a>
+            </div>
+            <div class="item">
+              <a href="./Info.html">Saber Mais</a>
+            </div>
+            <div class="item">
+              <a href="./Info.html">Saber Mais</a>
+            </div>
+            <div class="item">
+              <a href="./Info.html">Saber Mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
     <div class="owl-container">
       <div class="title-container">
         <h2 id="info-sub-title">Plantas do empreendimento</h2>
@@ -242,6 +329,45 @@
           items : 2,
           itemsDesktop : [1400,2],
           itemsTablet: [1250,1],
+  
+        });
+  
+      });
+    </script>
+    <script>
+      $(document).ready(function() {
+  
+        var owl = $("#owl-diferentials");
+  
+        owl.owlCarousel({
+  
+          // Define custom and unlimited items depending from the width
+          // If this option is set, itemsDeskop, itemsDesktopSmall, itemsTablet, itemsMobile etc. are disabled
+          // For better preview, order the arrays by screen size, but it's not mandatory
+          // Don't forget to include the lowest available screen size, otherwise it will take the default one for screens lower than lowest available.
+          // In the example there is dimension with 0 with which cover screens between 0 and 450px
+          
+          //Basic Speeds
+          slideSpeed : 200,
+          paginationSpeed : 800,
+      
+          //Autoplay
+          autoPlay : false,
+          goToFirst : true,
+          goToFirstSpeed : 1000,
+      
+          // Navigation
+          navigation : true,
+          navigationText : ["<",">"],
+          pagination : false,
+          
+      
+          // Responsive
+          responsive: true,
+          items : 1,
+          itemsDesktop : [1400,1],
+          itemsTablet: [1200,1],
+          itemsMobile : [479,1]
   
         });
   
