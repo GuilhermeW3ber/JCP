@@ -472,18 +472,26 @@ body.dark .logo img {
 }
 
 #title{
-    margin-left: 5px;
     font-size: 45px;
     color: #000;
     width: 750px;
+    margin-bottom: -70px;
+    font-weight: 300;
+    margin-bottom: 100px;
+    margin-top: 00px;
+    /* font-family: 'Caviar Dreams', sans-serif; */
+    text-transform: uppercase;
+    letter-spacing: 10px;
 }
 
 #sub-title{
-    text-transform: uppercase;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 20px;
     color: #000;
-    margin-bottom: 20px;
+    font-weight: 300;
+    margin-top: 00px;
+    /* font-family: 'Caviar Dreams', sans-serif; */
+    text-transform: uppercase;
+    letter-spacing: 4px;
     
 }
 
@@ -838,7 +846,7 @@ body.dark .logo img {
 }
 
 #owl-about .item{
-    background: #fff;
+    background: transparent;
     padding: 30px 0px;
     margin: 2px;
     color: #FFF;
@@ -849,12 +857,12 @@ body.dark .logo img {
 }
 
 .item-text-container{
-    background-color: #212121;
+    border-bottom: 1px solid #7D7E79;
     margin-top: -30px;
     border-radius: 5px 5px 0 0;
     padding: 20px 0;
     height: 200px;
-    
+    margin-right: 20px;    
 }
 
 .item-text-container img{
@@ -869,6 +877,7 @@ body.dark .logo img {
    font-size: 23px;
    font-weight: 300;
    height: 100px;
+   color: #7D7E79;
 }
 
 #owl-about .item h2{
@@ -1798,4 +1807,9 @@ textarea {
         font-weight: 500;
     }
     
+}
+
+.background-color{
+    background-color: #F5F5F5;
+    padding: 20px 0;
 }
