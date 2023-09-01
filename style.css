@@ -535,7 +535,7 @@ body.dark .logo img {
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    height: 400px;
+    height: 600px;
     align-items: left;
 
 }
@@ -673,7 +673,12 @@ body.dark .logo img {
 }
 
 #info{
-    font-size: 30px;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    margin-top: -50px;
 }
 
 #info-img{
@@ -720,10 +725,11 @@ body.dark .logo img {
     text-align: left;
     margin-left: 60px;
     margin-top: 140px;
+    color: #7D7E79;
 }
 
 .info-text-vertical h2{
-    font-size: 23px;
+    font-size: 27px;
     font-weight: 350;
     margin-top: 20px;
 }
@@ -734,7 +740,6 @@ body.dark .logo img {
     margin-top: 20px;
     text-align: start;
     margin-bottom: -10px;
-    border-top: 1px solid #000;
     padding-top: 10px;
 }
 
@@ -752,6 +757,16 @@ body.dark .logo img {
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 5px;
+    text-decoration: none;
+}
+
+.infoBuild p{
+    color: #7D7E79;
+    font-weight: 300;
+    font-size: 25px;
+    padding: 2px;
+    padding-right: 10px;
+    padding-top: 10px;
     text-decoration: none;
 }
 
@@ -783,6 +798,7 @@ body.dark .logo img {
 
     #info{
         text-align: center;
+        margin-top: 30px;
     }
 
     .info-text h2{
@@ -793,16 +809,18 @@ body.dark .logo img {
     }
 
     #info-img-vertical{
-        width: 95vw;
+        height: 60vh;
         margin-top: 80px;
         margin-left: 0px;
+        width: 350px;
     }
 
     .info-text-vertical p{
         margin-top: 20px;
         text-align: center;
         margin-bottom: -20px;
-        border-bottom: 1px solid #000;
+        width: 50%;
+        margin-left: 25%;
     }
 
     .info-text-vertical{
@@ -810,11 +828,13 @@ body.dark .logo img {
         text-align: center;
         margin-left: 0px;
         margin-top: 0px;
+        
     }
 
     .infoBuild{
         margin-top: 30px;
     }
+
 }
 
 #owl-about .item{
@@ -1315,6 +1335,13 @@ textarea {
         padding-bottom: 20px;
         padding-top: 50px;
     }
+    .interior-container{
+        padding: 0px 0 -40 0;
+        margin: 0 100px 0 200px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(25%, auto));
+    }
+
 }
 
 #owl-demo .item-plant{
@@ -1325,17 +1352,27 @@ textarea {
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    height: 600px;
-    align-items: left;
+    height: 400px;
+    width: 99%;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position-x: -25px;
+    
+    
 }
 
-@media screen and (max-width:650px) {
+@media screen and (max-width:1499px){
+    #owl-demo .item-plant{
+        height: 50vw; 
+        background-position-x: -0px;
+    }
+}
+
+@media screen and (max-width:1200px) {
 
     #owl-demo .item-plant{
-        height: 300px;
-        align-items: left;
+        height: 60vw;
+        background-position-x: -20px;
     }
     
 }
@@ -1491,24 +1528,29 @@ textarea {
     margin-left: 10%;
     width: 80%;
     text-align: right;
+    font-size: 20px;
+    font-weight: 300;
+    /* font-family: 'Caviar Dreams', sans-serif; */
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    font-weight: 500;
 }
 
 .margin3 b{
-    font-size: 25px;
-    font-weight: 500;
+    font-weight: 400;
     width: 48%;
 }
 
-.margin3 i{
-    font-size: 25px;
-    font-weight: 700;
+.margin3 i{ 
+    font-weight: 500;
     color: #EDA945;
     margin-left: 5px;
+    font-style: normal;
 }
 
 .diferentials{
     text-align: center;
-    padding: 80px 0;
+    padding: 80px 0 10px 0;
     background-color: #F5F5F5;
     color: #7D7E79;
 }
@@ -1521,7 +1563,6 @@ textarea {
     /* font-family: 'Caviar Dreams', sans-serif; */
     text-transform: uppercase;
     letter-spacing: 10px;
-
 }
 
 #owl-plant .item{
@@ -1594,7 +1635,6 @@ textarea {
 }
 
 .margin{
-  
     padding: 60px 0 10px;
     margin-left: 10%;
     width: 80%;
@@ -1678,3 +1718,84 @@ textarea {
        
 }
 
+#owl-diferentials .item {
+    text-align: center;
+    color: #beb28a;
+    background-color: transparent;
+}
+
+#owl-diferentials .item h1{
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+#owl-diferentials .item i{
+    font-size: 70px;
+    letter-spacing: 3px;
+    margin: 50px 0px 20px 0px;
+}
+
+@media (max-width:900px){
+    .interior-container{
+        margin: 0 100px 0 20px;
+    }
+
+    .margin{
+        padding: 20px 0 10px;
+        margin-left: 40%;
+        width: 80%;
+        text-align: left;
+        color: #7D7E79;
+    }
+    
+    .diferentials h1{
+        font-size: 30px;
+        font-weight: 300;
+        margin-bottom: -30px;
+        /* font-family: 'Caviar Dreams', sans-serif; */
+        text-transform: uppercase;
+        letter-spacing: 5px;
+    }
+
+    #owl-plant .item{
+        background: #E7E7E7;
+        padding: 30px 0px;
+        margin: 2px;
+        color: #FFF;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        height: 25vh;
+        align-items: left;
+        background-size: cover;
+    }
+
+    .state-container{
+        padding: 40px 0 -40 0;
+        margin: 0 -20px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(48%, auto));
+    }
+
+    .interior-container{
+        padding: 0px 0 -40 0;
+        margin: 0 0px 0 0px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(25%, auto));
+    }
+
+    .interior-container .margin{
+        margin: 0 100px 0 2vw;
+    }
+
+    .margin b{
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .margin c{
+        font-size: 17px;
+        font-weight: 500;
+    }
+    
+}
