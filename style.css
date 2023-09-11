@@ -597,9 +597,6 @@ body.dark .logo img {
     margin-right: 270px
 }
 
-
-
-
 @media screen and (max-width:1100px) {
 
     .owl-container{
@@ -995,7 +992,7 @@ body.dark .logo img {
     transition: .40s ease;
     text-align: center;
     justify-content: center;
-    align-items: center;    
+    align-items: center;  
 }
 
 
@@ -1062,6 +1059,7 @@ section{
     font-weight: 400;
     transition: 0.5s ease-in-out;
     text-decoration: none;
+    margin-top: -20px;
 }
 
 .footer-content li a:hover{
@@ -1130,22 +1128,24 @@ section{
 }
 
 #button{
-    background-color: #fff;
+    background-color: transparent;
     padding: 10px 60px 10px 60px;
     border-radius: 20px;
     text-transform: uppercase;
     text-decoration: none;
     transition: ease-in-out .45s ;
-    color: #000;
+    color: #fff;
     font-weight: 400;
+    border: 1px #fff solid;
 }
 
 #button:hover{
-    background-color: #e7e7e7;
     padding: 10px 60px 10px 60px;
     border-radius: 20px;
     text-transform: uppercase;
     cursor: pointer;
+    color: #BEB28A;
+    border: 1px #BEB28A solid;
 }
 
 .loft-container{
