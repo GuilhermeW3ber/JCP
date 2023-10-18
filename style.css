@@ -12,6 +12,20 @@ body {
     transition: all 200ms linear;
 }
 
+body::-webkit-scrollbar {
+    width: 15px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: transparent;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #c5c5c5;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 2px solid transparent;  /* creates padding around scroll thumb */
+  }
+
 .container {
 	width: 90%;
 	margin: 0 auto;
@@ -648,8 +662,7 @@ body.dark .logo img {
 }
 
 #division{
-    background-color: #000;
-    height: 100px;
+    display: none;
 }
 
 .about-container-vertical{
@@ -790,6 +803,14 @@ body.dark .logo img {
 }
 
 @media screen and (max-width:1230px) {
+
+    #division{
+        display: flex;
+        background-color: #c0c0c0;
+        height: 1px;
+        margin-top: -50px;
+    }
+
     #info-img{
         width: 90vw;
     }
@@ -1028,7 +1049,7 @@ section{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     gap: 3.5rem;
-    background: #000;
+    background: #161616;
     left: 0;
     right: 0;
     bottom: 0;
@@ -1037,7 +1058,6 @@ section{
 .footer-content img{
     width: 100px;
     margin-top: -20px;
-    
 }
 
 .footer-content h4{
@@ -1060,6 +1080,15 @@ section{
     transition: 0.5s ease-in-out;
     text-decoration: none;
     margin-top: -20px;
+}
+
+.footer-content li a i{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: -20px;
+    font-style: normal;
 }
 
 .footer-content li a:hover{
