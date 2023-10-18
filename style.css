@@ -1840,7 +1840,7 @@ textarea {
     }
 
     .interior-container .margin{
-        margin: 0 100px 0 2vw;
+        /* margin: 0 100px 0 2vw; */
     }
 
     .margin b{
