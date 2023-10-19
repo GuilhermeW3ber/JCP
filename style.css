@@ -1252,7 +1252,6 @@ section{
     padding: 0 0;
 }
 
-
 iframe{
     width: 49.5vw;
     height: 100vh;
@@ -1301,8 +1300,7 @@ iframe{
     transform: scale(1.1);
 }
 
-@media screen and (max-width:1230px) {
-
+@media screen and (max-width:800px) {
     #form-button{
         margin-left: 0px;
     }
@@ -1330,8 +1328,6 @@ textarea {
     color: #FFF;
     
 }
-
-
 
 @media screen and (max-width:800px) {
 
@@ -1424,8 +1420,6 @@ textarea {
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: -25px;
-    
-    
 }
 
 @media screen and (max-width:1499px){
@@ -1444,24 +1438,15 @@ textarea {
     
 }
 
-/* bootstrap */
-
-/*
-* 	Owl Carousel Owl Demo Theme 
-*	v1.3.3
-*/
-
 .owl-theme .owl-controls{
 	margin-top: 10px;
 	text-align: center;
 }
 
-/* Styling Next and Prev buttons */
-
 .owl-theme .owl-controls .owl-buttons div{
 	color: #FFF;
 	zoom: 1;
-	display: inline;/*IE7 life-saver */
+	display: inline;
 	margin: 5px;
 	padding: 3px 10px;
 	font-size: 12px;
@@ -1472,15 +1457,12 @@ textarea {
 	filter: Alpha(Opacity=50);/*IE7 fix*/
 	opacity: 0.5;
 }
-/* Clickable class fix problem with hover on touch devices */
-/* Use it for non-touch hover action */
+
 .owl-theme .owl-controls.clickable .owl-buttons div:hover{
 	filter: Alpha(Opacity=100);/*IE7 fix*/
 	opacity: 1;
 	text-decoration: none;
 }
-
-/* Styling Pagination*/
 
 .owl-theme .owl-controls .owl-page{
 	display: inline-block;
@@ -1506,8 +1488,6 @@ textarea {
 	opacity: 1;
     width: 40px;
 }
-
-/* If PaginationNumbers is true */
 
 .owl-theme .owl-controls .owl-page span.owl-numbers{
 	height: auto;
@@ -1564,7 +1544,6 @@ textarea {
     font-size: 18px;
     font-weight: 700;
     color: #BEB28A;
-    
 }
 
 .margin2{
