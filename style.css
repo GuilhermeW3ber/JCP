@@ -826,6 +826,11 @@ body.dark .logo img {
     #info{
         text-align: center;
         margin-top: 30px;
+        font-size: 30px;
+    }
+
+    .info-text-vertical h2{
+        font-size: 20px;
     }
 
     .info-text h2{
@@ -860,6 +865,13 @@ body.dark .logo img {
 
     .infoBuild{
         margin-top: 30px;
+    }
+
+    .infoBuild p{
+        font-size: 20px;
+        padding: 2px;
+        padding-right: 10px;
+        padding-top: 10px;
     }
 
 }
@@ -1170,7 +1182,7 @@ section{
     text-align: center;
 }
 
-@media (max-width:410px){
+@media (max-width:480px){
     #button{
         background-color: transparent;
         padding: 10px 40px 10px 40px;
@@ -1737,7 +1749,6 @@ textarea {
     -moz-border-radius: 3px;
     border-radius: 3px;
     height: 300px;
-
     align-items: left;
 
 }
@@ -1802,14 +1813,72 @@ textarea {
         text-align: left;
         color: #7D7E79;
     }
+
+    .diferentials{
+        text-align: center;
+        padding: 40px 0 0 0;
+        background-color: #F5F5F5;
+        color: #7D7E79;
+        margin-bottom: 0;
+    }    
     
     .diferentials h1{
-        font-size: 30px;
-        font-weight: 300;
+        font-size: 25px;
+        font-weight: 400;
         margin-bottom: -30px;
         /* font-family: 'Caviar Dreams', sans-serif; */
         text-transform: uppercase;
         letter-spacing: 5px;
+    }
+
+    #owl-diferentials .item{
+        padding: 30px 0px;
+        margin: 2px;
+        height: 200px;
+    }
+
+    #owl-diferentials .item h1{
+        font-size: 14px;
+        letter-spacing: 3px;
+    }
+
+    #owl-diferentials .item i{
+        font-size: 50px;
+        letter-spacing: 3px;
+        margin: 20px 0px 10px 0px;
+    }
+
+    .buildingStage h1{
+        font-size: 30px;
+        font-weight: 400;
+        margin-bottom: 30px;
+        /* font-family: 'Caviar Dreams', sans-serif; */
+        text-transform: uppercase;
+        letter-spacing: 10px;
+        margin-top: 0px;
+    }
+
+    .margin2{
+        border-bottom: 3px solid #7D7E79;
+        padding: 60px 0 10px;
+        margin-left: 10%;
+        width: 80%;
+        text-align: left;
+        color: #7D7E79;
+    }
+    
+    .margin2 b{
+        font-size: 20px;
+        font-weight: 500;
+        width: 48%;
+    }
+    
+    .margin2 i{
+        font-size: 23px;
+        font-weight: 700;
+        color: #BEB28A;
+        margin-right: 5px;
+        
     }
 
     #owl-plant .item{
@@ -1840,7 +1909,7 @@ textarea {
     }
 
     .interior-container .margin{
-        margin: 0 0px 0 1vw;
+        margin: 0 0px 0 1.5vw;
     }
 
     .margin b{
