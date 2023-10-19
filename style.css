@@ -1345,7 +1345,7 @@ textarea {
 
     .loft-image{
         background: url(./Src/SemImagem.png);
-        background-attachment: fixed;
+        background-attachment: none;
         height: 20vh;
         width: 100vw;
     }
@@ -1652,7 +1652,6 @@ textarea {
     margin-left: 40px;
     margin-top: 180px;
     font-weight: 400;
-       
 }
 
 .interior-Stage{
@@ -1781,6 +1780,19 @@ textarea {
 }
 
 @media (max-width:900px){
+
+    .hero {
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./Src/Empreendimentos/landscape-4098802_1920.jpg");
+        /* background-image: linear-gradient( rgba(75, 78, 245, 0.7), rgba(41, 42, 90, 0.7)), url(./Src/home.jpg); */
+        background-position-y: 0px;
+        background-size: 100vw;
+        background-size: cover;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        background-attachment: none; 
+    }
+
     .interior-container{
         margin: 0 0 0 20px;
     }
